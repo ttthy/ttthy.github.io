@@ -1,0 +1,75 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-2">
+        <table >
+          <tr class="contact-list">
+            {%- if site.email -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button" target="_blank" href="mailto:{{site.email}}">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+            {%- if site.github -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button" target="_blank" href="https://github.com/{{site.github}}">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+            {%- if site.scholar_id -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button" target="_blank" href="https://scholar.google.com/citations?user={{site.scholar_id}}">
+                        <i class="ai ai-google-scholar"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+            {%- if site.linkedin -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin| cgi_escape | escape }}">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+            {%- if site.twitter -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button"  target="_blank" href="https://twitter.com/{{site.twitter}}">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+            {%- if site.cv -%}
+                <td>
+                <div class="media">
+                    <a class="pull-left button" target="_blank" href="{{site.cv}}">
+                        <i class="ai ai-cv"></i>
+                    </a>
+                </div>
+                </td>
+            {%- endif -%}
+
+          </tr>
+        </table>
+      </div>
+
+      <div class="footer-col-right  footer-col-3">
+          <p class="text" align="right">Last updated {{ site.time | date: "%B %d, %Y" }}.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

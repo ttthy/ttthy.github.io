@@ -1,0 +1,30 @@
+<div class="card">
+<div class="leftcolumn">
+    <a class="pull-left" {% if include.paper.doc-url %} href="{{ include.paper.url }}" {% endif %}
+    {% if include.paper.abstract %} title="{{ include.paper.abstract }}"{% endif %} target="_blank">
+        <!-- <img src="/img/paper/{{ include.paper.img }}" alt="" style="max-width:120px; height:auto;"/> -->
+    </a>
+    <a href="{{include.paper.url}}" target="_blank">{{ include.paper.title }}</a>
+    <br/>
+    {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}
+    <br/>
+    {% if include.paper.code %}
+        [<a href="{{ include.paper.code }}" target="_blank">code</a>]
+    {% endif %}
+    {% if include.paper.data %}
+        [<a href="{{ include.paper.data }}" target="_blank">data</a>]
+    {% endif %}
+    {% if include.paper.slides %}
+        [<a href="{{ include.paper.slides }}" target="_blank">slides</a>]
+    {% endif %}
+    {% if include.paper.poster %}
+        [<a href="{{ include.paper.poster }}" target="_blank">poster</a>]
+    {% endif %}
+    {% if include.paper.talk %}
+        [<a href="{{ include.paper.talk }}" target="_blank">talk</a>]
+    {% endif %}
+</div>
+<div class="rightcolumn">
+    <p style="text-align:center">{{ include.paper.conf }}</p>
+</div>
+</div>

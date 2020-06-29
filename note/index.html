@@ -1,0 +1,17 @@
+---
+layout: default
+title: Notes
+order: 1
+---
+
+<h1 class="post-title">Notes</h1>
+
+{% for post in paginator.posts %}
+    <hr>
+    <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+    <p>{{ post.description }}</p>
+{% endfor %}
+<hr>
+{% include pagination.html %}
+

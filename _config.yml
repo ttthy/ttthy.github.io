@@ -1,0 +1,51 @@
+# Personal info
+title: Thy Tran
+name: <strong>Thy</strong> Tran
+email: thy2512@gmail.com
+profile_image: img/people/thy.JPG
+
+# Social links
+github: ttthy
+twitter: thy2512
+linkedin: ttthy
+scholar_id: TMoIBtoAAAAJ
+cv: "https://drive.google.com/file/d/1zKKkSTok7jjsyFlbRCTrzSjqevge1dqW/view?usp=sharing"
+description: > # this symbol means ignore newlines until "baseurl:"
+    Hi! I'm Thy and here you will find what I do.
+baseurl: "" # keep blank unless you're using sub-paths
+url: "" # the base hostname & protocol for your site
+
+# you can also declare arbitrary key-value data here
+nactem_page: "http://www.nactem.ac.uk/"
+sophia_page: "https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html"
+miwa_page: "https://www.toyota-ti.ac.jp/Lab/Denshi/COIN/people/makoto.miwa/"
+phong_page: "https://sites.google.com/site/lephongxyz/"
+aist_page: "https://www.airc.aist.go.jp/en/"
+
+# Blog
+blog_name: ttthy
+blog_description: random thoughts
+
+# Pagination
+paginate: 3
+blog_path: /note/
+permalink: /note/:year/:title/
+paginate_path: /note/page:num/
+
+text:
+  pagination:
+    newer: '&laquo;'
+    older: '&raquo;'
+
+# Build settings
+markdown: kramdown
+
+# Site settings
+exclude: [example.md]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji

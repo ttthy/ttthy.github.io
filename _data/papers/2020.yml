@@ -1,0 +1,75 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: 
+  title: "Revisiting Unsupervised Relation Extraction"
+  authors: "<b>Thy Thy Tran</b>, Phong Le, Sophia Ananiadou"
+  doc-url:
+  conf: ACL
+  conf-url: "http://acl2020.org/"
+  url: "https://www.aclweb.org/anthology/2020.acl-main.669/"
+  abstract: 
+  code: "https://github.com/ttthy/ure"
+  data:
+  slides: "https://drive.google.com/file/d/1E5ToUaaVZiPJGzJcK6NgFR9XSvcRpRTb/view?usp=sharing"
+  poster:
+  talk:
+  
+- 
+  layout: paper
+  paper-type: article
+  selected: y
+  year: 2020
+  img: 
+  title: "Syntactically-Informed Word Representations from Graph Neural Network"
+  authors: "<b>Thy Thy Tran</b>, Makoto Miwa, Sophia Ananiadou"
+  doc-url:
+  conf: "Neurocomputing<br><i>(In press)</i>"
+  conf-url: "https://www.journals.elsevier.com/neurocomputing/"
+  url: "https://doi.org/10.1016/j.neucom.2020.06.070"
+  abstract: 
+  code: 
+  data:
+  slides:
+  poster:
+  talk:
+
+- 
+  layout: paper
+  paper-type: article
+  selected: y
+  year: 2020
+  img: 
+  title: "Deep Event Mine: End-to-end Neural Nested Event Extraction from Biomedical Texts"
+  authors: "Long Trieu, <b>Thy Thy Tran</b>, Khoa N. A. Duong, Anh Nguyen, Miwa Makoto, Sophia Ananiadou"
+  doc-url:
+  conf: "Bioinformatics<br><i>(In Press)</i>"
+  conf-url: "https://academic.oup.com/bioinformatics"
+  url: "https://doi.org/10.1093/bioinformatics/btaa540"
+  abstract: 
+  code: "https://github.com/aistairc/DeepEventMine"
+  data:
+  slides:
+  poster:
+  talk:
+
+- 
+  layout: paper
+  paper-type: article
+  selected: y
+  year: 2020
+  img: 
+  title: "Adverse Drug Events and Medication Relation Extraction in EHRs with Ensemble Deep Learning Methods"
+  authors: "Fenia Christopoulou*, <b>Thy Thy Tran</b>*, Sunil Kumar Sahu, Makoto Miwa, Sophia Ananiadou"
+  doc-url:
+  conf: JAMIA
+  conf-url: "https://academic.oup.com/jamia"
+  url: "https://academic.oup.com/jamia/article/27/1/39/5544735"
+  abstract: 
+  code: 
+  data:
+  slides:
+  poster:
+  talk:
