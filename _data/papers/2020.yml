@@ -26,11 +26,11 @@
   title: "Syntactically-Informed Word Representations from Graph Neural Network"
   authors: "<b>Thy Thy Tran</b>, Makoto Miwa, Sophia Ananiadou"
   doc-url:
-  conf: "Neurocomputing<br><i>(In press)</i>"
+  conf: "Neurocomputing"
   conf-url: "https://www.journals.elsevier.com/neurocomputing/"
   url: "https://doi.org/10.1016/j.neucom.2020.06.070"
   abstract: 
-  code: 
+  code: "https://github.com/ttthy/siwrs"
   data:
   slides:
   poster:
@@ -45,7 +45,7 @@
   title: "Deep Event Mine: End-to-end Neural Nested Event Extraction from Biomedical Texts"
   authors: "Long Trieu, <b>Thy Thy Tran</b>, Khoa N. A. Duong, Anh Nguyen, Miwa Makoto, Sophia Ananiadou"
   doc-url:
-  conf: "Bioinformatics<br><i>(In Press)</i>"
+  conf: "Bioinformatics"
   conf-url: "https://academic.oup.com/bioinformatics"
   url: "https://doi.org/10.1093/bioinformatics/btaa540"
   abstract: 
